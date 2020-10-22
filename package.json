@@ -3,11 +3,21 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@material-ui/core": "^4.11.0",
+    "@material-ui/icons": "^4.9.1",
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.3.2",
     "@testing-library/user-event": "^7.1.2",
+    "axios": "^0.20.0",
+    "busboy": "^0.3.1",
+    "dayjs": "^1.9.3",
+    "express": "^4.17.1",
+    "firebase": "^7.24.0",
+    "firebase-admin": "^9.2.0",
+    "material-ui": "^0.20.2",
     "react": "^17.0.0",
     "react-dom": "^17.0.0",
+    "react-router-dom": "^5.2.0",
     "react-scripts": "3.4.4"
   },
   "scripts": {
@@ -30,5 +40,9 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "proxy": "https://us-central1-cs3219-otot-task-b4.cloudfunctions.net/api",
+  "devDependencies": {
+    "prettier": "2.1.2"
   }
 }
